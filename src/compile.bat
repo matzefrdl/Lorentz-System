@@ -1,0 +1,1 @@
+gcc -Wall -Werror -I ../glfw/include/ -I ../glad/include/ ../glad/src/glad.c lorentz.c shader.c mat4x4.c main.c -o main.exe -L ../glfw/lib-mingw/ -lglfw3dll -lopengl32
